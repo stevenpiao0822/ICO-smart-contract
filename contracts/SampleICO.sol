@@ -6,9 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-/** 
-  *@title Initial Coin Offerring(ICO) contract
-*/
+/**@title Initial Coin Offerring(ICO) contract*/
 contract ICO is ERC20, Ownable, ReentrancyGuard {
 
     // constructor() public ERC20("_name", "_symbol") {
