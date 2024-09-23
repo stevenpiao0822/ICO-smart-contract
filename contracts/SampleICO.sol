@@ -8,8 +8,6 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 /**@title Initial Coin Offerring(ICO) contract*/
 contract ICO is ERC20, Ownable, ReentrancyGuard {
-
- 
     
     // Sample constructor
     constructor() ERC20("BasicCoin", "BSC") {
