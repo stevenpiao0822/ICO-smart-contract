@@ -18,7 +18,6 @@ async function main() {
   const token = await contract.deploy();
 
   await token.deployed();
-
   console.log("Initial Coin Offering (ICO) contract deployed to:", token.address);
 }
 
