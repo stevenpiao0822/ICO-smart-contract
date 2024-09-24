@@ -1,7 +1,6 @@
 const { expect, assert  } = require("chai");
 
 describe("Initial Coin Offering (ICO) contract", function() {
-
   let token;
   let accounts;
   const amount = ethers.utils.parseEther("1")
